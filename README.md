@@ -1,2 +1,2 @@
-# studentforum
+# Studentforum
 Student Forum Site
