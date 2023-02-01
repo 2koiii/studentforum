@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* reset */
+
+*, *::before, *::after{ box-sizing: border-box;}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline; -webkit-text-size-adjust: 100%;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+button, html input[type=button], input[type=reset], input[type=submit] { -webkit-appearance: button; cursor: pointer; }
+input:not([type='radio']):not([type='checkbox']), textarea, select{-webkit-appearance: none;}
+form, label {-webkit-text-size-adjust: 100%;}
+mark {background-color: transparent;color:inherit;}
+/* end reset */
+
+/* html{ color-scheme: dark light; } */
+
+html, body{ overflow-x: hidden;}  
+
+body{ font-family: Poppins; position:relative;max-width: 100vw;margin: 0 auto;  background: rgb(21,70,21); background: linear-gradient(219deg, rgba(21,70,21,1) 50%, rgba(202,179,33,1) 50%); display: flex;justify-content: center;align-items: center;height: 100vh;}
+ 
+img, picture, svg, video{ display: block; max-width: 100%; }
+ 
+input, textarea, button, select{ font: inherit; }
+
+.login_con { width:500px; height:250px; max-width:100%;      /* From https://css.glass */
+	background: rgba(255, 255, 255, 0.18);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6.3px);
+	-webkit-backdrop-filter: blur(6.3px); 
+	/*! border: 1px solid rgba(255, 255, 255, 0.3); */ text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.login_area { font-family: Poppins; position: absolute;top: 60%;left: 50%;transform: translate(-50%, -50%);}
+.login_con figure{position: absolute;top: -50px;left: 50%;transform: translateX(-50%);aspect-ratio: 1 / 1;width: 100px;border-radius: 50%;max-width: 100%;background: rgba(255, 255, 255, 0.18); 	 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 	backdrop-filter: blur(6.3px); 	-webkit-backdrop-filter: blur(6.3px); 	/*! border: 1px solid rgba(255, 255, 255, 0.3); */display: flex;justify-content: center;align-items: center;}
+.login_con figure img{}
+.login_con label{display: block;margin: 0 0 5px;}
+.login_con input{margin: 0 0 15px;text-align: center;border: none;border-radius: 25px;}
+.login_con button{display: block; margin: 15px auto 0;padding: 10px 45px;font-size: 15px;border: none;border-radius: 25px;}
